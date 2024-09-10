@@ -1,5 +1,5 @@
 "use server"
-import { connectDB } from "../utils/mongodb"
+import { connectDB } from "@/utils/mongodb"
 import User from "@/models/User";
 import bcrypt from "bcryptjs";
 
