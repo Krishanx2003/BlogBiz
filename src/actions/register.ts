@@ -1,6 +1,7 @@
 "use server"
-import { connectDB } from "@/utils/mongodb"
+
 import User from "@/models/User";
+import { connectDB } from "@/utils/mongodb";
 import bcrypt from "bcryptjs";
 
 export const register = async (values: any) => {

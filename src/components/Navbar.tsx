@@ -19,8 +19,11 @@ const Navbar: React.FC = () => {
           {session ? (
             <>
               <Link href="/create" className="text-neutral-300 hover:text-neutral-200">
-                create
+                Create Blog 
               </Link>
+              <Link className="rounded-md py-1 px-2 sm:py-2 sm:px-4 bg-blue-600 text-white" href={'/jobs/new'}>
+            Post a job
+          </Link>
               <button onClick={() => signOut()} className="text-neutral-300 hover:text-neutral-200">
                 Sign Out
               </button>
